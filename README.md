@@ -140,29 +140,29 @@ sys         0.004       0.000       0.004       0.004       0.004
 `bpf_map_lookup_batch`
 
 ```console
-23:36 zsh ❯ multitime sudo bin/batch -mem
-get from id:  681
+$ multitime sudo bin/batch -mem
+get from id:  754
 Start batch look up bpf map
 ----- init -----
-Alloc = 372048
-HeapAlloc = 372048
-TotalAlloc = 373992
-Sys = 11992080
+Alloc = 374168
+HeapAlloc = 374168
+TotalAlloc = 376112
+Sys = 12254224
 NumGC = 1
 ----- last -----
-Alloc = 3729456
-HeapAlloc = 3729456
-TotalAlloc = 840620184
-Sys = 17366032
+Alloc = 3498736
+HeapAlloc = 3498736
+TotalAlloc = 840618952
+Sys = 17300496
 NumGC = 235
 ------------------------
 Finish batch look up bpf map
-Count 104832000 entries
+Count 104857600 entries
 Batch Count is 25600
 ===> multitime results
 1: sudo bin/batch -mem
             Mean        Std.Dev.    Min         Median      Max
-real        7.077       0.000       7.077       7.077       7.077
-user        0.004       0.000       0.004       0.004       0.004
-sys         0.009       0.000       0.009       0.009       0.009
+real        6.973       0.000       6.973       6.973       6.973
+user        0.002       0.000       0.002       0.002       0.002
+sys         0.004       0.000       0.004       0.004       0.004
 ```
